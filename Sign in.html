@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in</title>
+    <link rel="stylesheet" href="Sign in.css">
+    <link rel="shortcut icon" href="icon.png">
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><a href="menu.html"><img src="click menu.png" alt=""></a></div>
+        <div class="signin">
+            <div class="form">
+                <h1>Đăng Ký</h1>
+                <form action="Login.html">
+                    <div class="inputText">
+                        <label for="hoten"></label>
+                        <input type="text" name="hoten" id="name" placeholder="Họ và tên"><br>
+                        <label for="taikhoan"></label>
+                        <input type="email" name="taikhoan" id="user" placeholder="Email truy cập "><br>
+                        <label for="matkhau"></label>
+                        <input type="password" name="matkhau" id="pass" placeholder="Mật khẩu" required><br>
+                        <label for="nhaplaimatkhau"></label>
+                        <input type="password" name="nhaplaimatkhau" id="repass" placeholder="Nhập lại mật khẩu" required><br>
+                        
+                        
+                        <div class="inputOption">
+                            <div class="gioitinh">
+                                <label for="gioitinh">Giới Tính:</label>
+                                <select name="gioitinh" id="sex">
+                                    <option>Nam</option>
+                                    <option>Nữ</option><br>
+                            </select>
+                            </div>
+                            
+                            <div class="chucvu">
+                                <label for="chucvu">Bạn thuộc đối tượng:</label>
+                                <select name="chucvu" id="namework">
+                                    <option>Giảng viên</option>
+                                    <option>Ban chủ nhiệm khoa</option>
+                                    <option>Trưởng/Phụ trách bộ môn</option>
+                            </select>
+                            </div>
+                        </div>
+                        <button type="submit">Đăng Ký</button>                        
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

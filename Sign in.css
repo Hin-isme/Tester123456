@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    background-image: url(background.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header::before{
+    position: absolute;
+    background-color: rgba(16, 12, 238, 0.491);
+    content: "";
+    width: 100%;
+    height: 100%;
+}
+
+.logo{
+    position: relative;
+    padding: 36px 50px;
+}
+.signin h1{
+    margin-bottom: 15px;
+}
+.signin{
+    border: 1px solid white;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    background-color: #d5d5d5;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.inputText input{
+    margin-bottom: 10px;
+    height: 40px;
+    width: 400px;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+}
+.inputOption label{
+    font-size: 15px;
+    margin-right:10px;
+    padding: 10px;
+    
+}
+
+.gioitinh{
+    border-radius: 5px;
+    height: 40px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    
+}
+
+.chucvu{
+    height: 40px;
+    width:400px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+
+
+button{
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(183, 19, 19);
+    color: white;
+}
